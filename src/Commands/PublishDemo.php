@@ -1,6 +1,6 @@
 <?php
 
-namespace HansSchouten\LaravelPageBuilder\Commands;
+namespace Kvadrat\LaravelPageBuilder\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
@@ -30,7 +30,7 @@ class PublishDemo extends Command
     public function handle()
     {
         Artisan::call('vendor:publish', [
-            '--provider' => 'HansSchouten\LaravelPageBuilder\ServiceProvider',
+            '--provider' => 'Kvadrat\LaravelPageBuilder\ServiceProvider',
             '--tag' => 'demo-theme'
         ]);
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace HansSchouten\LaravelPageBuilder\Commands;
+namespace Kvadrat\LaravelPageBuilder\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;

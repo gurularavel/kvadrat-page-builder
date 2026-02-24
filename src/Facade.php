@@ -1,16 +1,16 @@
 <?php
 
-namespace HansSchouten\LaravelPageBuilder;
+namespace Kvadrat\LaravelPageBuilder;
 
 /**
- * @see \HansSchouten\LaravelPageBuilder\LaravelPageBuilder
+ * @see \Kvadrat\LaravelPageBuilder\LaravelPageBuilder
  */
 class Facade extends \Illuminate\Support\Facades\Facade
 {
     /**
      * {@inheritDoc}
      */
-    protected static function getFacadeAccessor()
+    protected static function getFacadeAccessor(): string
     {
         return LaravelPageBuilder::class;
     }
